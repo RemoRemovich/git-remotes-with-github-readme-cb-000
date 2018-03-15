@@ -62,7 +62,7 @@ Now that we added a remote repo, there are two actions. We can send our latest w
 
 We use this command when we want to send some code from the local repository to the associated remote repository.
 
-`git push` takes two arguments. The first is the name of the remote repo. Remember, `origin` is just an alias that refers to the repository name. You don't actually have to enter the repository name. Instead, you can just use `origin`. The second is the name of the remote branch you want to send code to. In the example below, we're pushing to the master branch of our remote repository, referred to as `origin`. To find all the branch names, run `git branch -r`.
+`git push` takes two arguments. The first is the name of the remote repo. Remember, `origin` is just an alias that refers to the repository name. You don't actually have to enter the repository name. Instead, you can just use it's alias - `origin`. The second argument is the name of the remote branch where you want to send your code to. In the example below, we're pushing to the master branch of our remote repository, referred to as `origin`. To find all the branch names, run `git branch -r`.
 
 ```bash
 git push origin master
